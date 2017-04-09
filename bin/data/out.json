@@ -1,0 +1,88 @@
+{
+    "scene": {
+        "cereal_class_version": 0,
+        "_cameraSetting": {
+            "cereal_class_version": 0,
+            "_fov": 0.7853981633974483,
+            "_eye": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_lookat": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_up": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+            },
+            "_imageWidth": 512,
+            "_imageHeight": 512
+        },
+        "_sceneElements": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "rt::PolygonSceneElement",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "cereal_class_version": 0,
+                        "_backEmissive": true,
+                        "_material": {
+                            "cereal_class_version": 0,
+                            "_content": {
+                                "which": 0,
+                                "data": {
+                                    "cereal_class_version": 0,
+                                    "Le": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    },
+                                    "R": {
+                                        "x": 0.75,
+                                        "y": 0.75,
+                                        "z": 0.75
+                                    }
+                                }
+                            }
+                        },
+                        "_vertices": [
+                            {
+                                "x": -1.0,
+                                "y": 1.0,
+                                "z": -1.0
+                            },
+                            {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": -1.0
+                            },
+                            {
+                                "x": -1.0,
+                                "y": -1.0,
+                                "z": -1.0
+                            },
+                            {
+                                "x": 1.0,
+                                "y": -1.0,
+                                "z": -1.0
+                            }
+                        ],
+                        "_indices": [
+                            1,
+                            0,
+                            2,
+                            1,
+                            2,
+                            3
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
